@@ -87,3 +87,31 @@ ul {
     border: solid;
     border-color: blue;
 }
+
+.content3 {
+    display: flex ;
+    justify-content: center;
+
+}
+
+.quote {
+    display: flex;
+    max-width: 75%;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    margin: 16px;  
+}
+
+.calltoaction {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    background-color: blue;
+    margin: 24px;
+}
+
+.calltoactionbutton {
+
+}
+
