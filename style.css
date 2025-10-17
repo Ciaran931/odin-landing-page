@@ -4,6 +4,7 @@ body {
     flex-direction: column;
     margin: 0;
     height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header, .footer {
@@ -38,6 +39,7 @@ ul, .logo {
 .content1 {
     display: flex;
     justify-content: center;
+    background-color: #1F2937;;
 
 }
 
@@ -46,8 +48,21 @@ ul, .logo {
     flex-direction: column;
     max-width: 400px;
     margin: 32px;
-    padding: 32px;
-    background-color: rgb(59, 59, 59);
+    padding: 16px;
+    margin-bottom: 64px;
+}
+
+.title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+
+.content1text {
+    font-size: 18px;
+    color: #f9faf8;
+    margin-bottom: 8px;
 }
 
 .placeholder {
@@ -57,6 +72,7 @@ ul, .logo {
     margin: 32px;
     padding: 32px;
     background-color: rgb(71, 71, 71);    
+    border-radius: 15px;
 }
 
 .content2 {
@@ -68,30 +84,32 @@ ul, .logo {
 .content2header {
     display: flex;
     justify-content: center;
-    font-size: larger;
+    font-size: 36px;
+    color: #1F2937;
     font-weight: 900;
-    padding: 8px;
-    background-color: rgb(175, 175, 175);    
+    padding: 32px;
+ 
 }
 
 .content2main {
     display: flex;
+    flex-shrink: 1;
     align-items: center;
     justify-content: center;
     gap: 26px;
-    background-color: rgb(175, 175, 175);
 }
 
 .content2box {
     display: flex;
     flex-direction: column;
-
     width: 200px;
+    margin: 32px;
 }
 
-.boxtext {
+a {
     display: flex;
     max-width: inherit;
+    margin-top: 16px;
 }
 
 .box {
@@ -100,21 +118,23 @@ ul, .logo {
     border-color: blue;
     height: 200px;
     width: 200px;
+    border-radius: 16px;
 }
 
 .content3 {
     display: flex ;
     justify-content: center;
-
+    background-color: #e5e7eb;
 }
 
 .quote {
     display: flex;
-    max-width: 75%;
+    max-width: 50%;
     font-size: 36px;
-    font-weight: 400;
+    font-weight: 300;
     text-align: center;
-    margin: 16px;  
+    color: #1f2937;
+    margin: 48px;  
 }
 
 .content4 {
@@ -129,15 +149,39 @@ ul, .logo {
     justify-content: space-between;
     align-items: center;
     max-width: 80%;
-    background-color: blue;
     margin: 24px;
+    background-color: #3882f6;
 }
 
 .calltoactiontext {
     padding: 16px;
+    font-size: 20px;
+    color: #e5e7eb;
+    font-weight: 600;
+
+}
+
+p {
+    color: #e5e7eb;
+    font-size: 16px;
+    font-weight: 300;
 }
 
 .calltoactionbutton {
-    padding: 16px;
+    border-radius: 5px;
+    padding: 8px 35px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-weight: 900;
+    margin-right: 16px;
 }
 
+.button {
+    border-radius: 5px;
+    padding: 8px 35px;
+    background-color: #3882F6;
+    color: white;
+    display: inline-block;
+    font-weight: 900;
+}
